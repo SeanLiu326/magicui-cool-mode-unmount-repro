@@ -1,0 +1,14 @@
+{
+  "name": "magicui-cool-mode-unmount-repro",
+  "private": true,
+  "scripts": {
+    "test": "node node_modules/vitest/vitest.mjs run --config ./vitest.config.mts --reporter verbose",
+    "test:extra": "node node_modules/vitest/vitest.mjs run --config ./extra.config.mts --reporter verbose"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0",
+    "react": "19.2.4",
+    "react-test-renderer": "19.2.4",
+    "vitest": "4.1.10"
+  }
+}
